@@ -1,3 +1,3 @@
 
-# 各プレイヤーとソリの紐づけ
-    execute as @a[tag=Riding] at @s run function yukigassen:minecart/move
+# 各プレイヤー実行
+    execute as @a at @s run function yukigassen:tick_player
