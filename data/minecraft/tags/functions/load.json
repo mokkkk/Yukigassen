@@ -1,0 +1,9 @@
+{
+    "values": [
+        "mh_dp:load",
+        "asa_matrix:load",
+        "score_to_health:load",
+        "score_damage_mhdp:core/init",
+        "oh_my_dat:sys/load"
+    ]
+}
