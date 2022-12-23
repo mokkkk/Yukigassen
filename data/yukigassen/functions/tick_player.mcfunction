@@ -8,5 +8,8 @@
 # 各プレイヤーとソリの紐づけ
     function yukigassen:minecart/move
 
+# 雪玉を投げたとき
+    execute if entity @s[scores={UsedSnowball=1..}] run function yukigassen:snowball/
+
 # 終了
     tag @s remove Riding
