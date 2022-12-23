@@ -4,6 +4,9 @@
     execute as @e[type=goat] if score @s PlayerId = $temporary_player_id PlayerId run tag @s add Target
     execute as @e[type=minecart] if score @s PlayerId = $temporary_player_id PlayerId run tag @s add Target
 
+# トロッコが破壊されたとき
+    execute if entity @s[tag=Rided] unless entity @e[type=minecart,tag=Target] run function yukigassen:minecart/kill
+    
 # 騎乗開始時実行
     execute if entity @s[tag=!Rided,tag=Riding] run function yukigassen:minecart/start_ride
 
