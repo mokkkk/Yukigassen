@@ -1,9 +1,6 @@
 {
     "values": [
-        "mh_dp:load",
-        "asa_matrix:load",
-        "score_to_health:load",
-        "score_damage_mhdp:core/init",
+        "yukigassen:load",
         "oh_my_dat:sys/load"
     ]
 }
